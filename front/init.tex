@@ -1,0 +1,138 @@
+%\documentclass[showtrims,noblurb]{styles/kthesis}
+\documentclass[noblurb]{styles/kthesis}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Packages
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{subfig}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{acronym}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{theorem}
+\usepackage{multirow}
+\usepackage{rotating}
+\usepackage[sectionbib]{chapterbib}
+\usepackage{lmodern}
+\usepackage{styles/addmypaper}
+\usepackage[latin1]{inputenc}
+\usepackage[swedish,english]{babel}
+\usepackage{graphicx}
+\usepackage{hhline}
+\usepackage{url}
+\usepackage{bm}
+\usepackage{hyperref}
+\usepackage{memhfixc}
+\usepackage{outlines}
+\usepackage{epsfig}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathptmx}
+\usepackage{placeins}
+\usepackage{lscape}
+\usepackage{footnote}
+\usepackage[table]{xcolor}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+%\usepackage[textwidth=2cm,colorinlistoftodos]{todonotes}
+%\usepackage{xspace}
+%\usepackage{latexsym}
+%\usepackage{amsmath,amssymb,graphicx}
+%\usepackage{times}   % assumes new font selection scheme installed
+%\usepackage{multirow}
+
+\usepackage{color,comment,rotating,url} % author packages
+\usepackage{tikz}
+\usetikzlibrary{arrows,shadows,shapes,backgrounds,decorations,snakes,fit}
+%%\usepackage[top=1in, bottom=1in, left=1.25in, right=1.25in]{geometry}
+%\usepackage{todonotes}
+\usepackage{enumerate}
+\DeclareMathOperator*{\E}{\mathbb{E}}
+
+\newcommand{\vect}[1]{\boldsymbol{\mathbf{#1}}}
+
+\renewcommand{\bf}{\textbf}
+\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+\usepackage{amsfonts}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+
+\newcommand{\specialcell}[2][c]{%
+  \begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
+%%
+\newcommand{\dataset}{{\cal D}}
+\newcommand{\fracpartial}[2]{\frac{\partial #1}{\partial  #2}}
+
+\DeclareRobustCommand{\rchi}{{\mathpalette\irchi\relax}}
+\newcommand{\irchi}[2]{\raisebox{\depth}{$#1\chi$}} % inner command, used by \rchi
+\DeclareOldFontCommand{\rm}{\normalfont\rmfamily}{\mathrm}
+%\newsubfloat{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Packages
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[]{algorithm2e}
+\usepackage{subfig}
+\usepackage{color}
+\usepackage{tikz}
+\usepackage{import}
+\usepackage{standalone}
+\usetikzlibrary{arrows,fit,shapes,automata,topaths,petri}
+\usetikzlibrary{decorations.pathreplacing,decorations.pathmorphing,calc,backgrounds,fit,plotmarks}
+\usetikzlibrary{positioning}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% New commands
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \newcommand{\newdoublepage}{%
+%   \clearpage\if@twoside\ifodd\c@page\else
+%   \hbox{}
+%   \vspace*{\fill}
+%   \vspace{\fill}
+%   \thispagestyle{empty}
+%   \newpage
+%   \if@twocolumn\hbox{}\newpage\fi\fi\fi}
+
+\newcommand*{\pretoctitle}[1]{{\clearpage\centering
+\vspace*{-0.5cm}\textbf{#1}\vspace{0.5cm}\par}}
+
+\newcommand{\etal}{\emph{et~al.}}
+\newcommand{\diaeresis}[1]{\"{#1}} % Umlaut in kthplainwithbib
+
+% Types of todonotes
+\newcommand{\todoref}[1]{\todo[color=green!40]{#1}}
+\newcommand{\tododiscuss}[1]{\todo[color=blue!40]{#1}}
+\newcommand{\todofix}[1]{\todo[color=red!40]{#1}}
+\newcommand{\todowrite}[1]{\todo[color=yellow!40]{#1}}
+\newcommand{\todiscuss}[1]{\textcolor{blue}{To discuss: #1}}
+
+% Chapter, section, figure names
+\newcommand{\refc}[1]{Chapter~\ref{#1}}
+\newcommand{\refs}[1]{Section~\ref{#1}}
+\newcommand{\reff}[1]{Figure~\ref{#1}}
+\newcommand{\reft}[1]{Table~\ref{#1}}
+\newcommand{\refp}[1]{Part~\ref{#1}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Settings
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\selectlanguage{english}
+\setcounter{tocdepth}{1}
+\setsecnumdepth{subsubsection} %{subsection}-original
+%\chapterstyle{southall}
+\renewcommand{\thesection}{\arabic{section}}
+\aliaspagestyle{part}{empty}
+
+\epigraphfontsize{\small\itshape}
+\setlength\epigraphwidth{11cm}
+\setlength\epigraphrule{0pt}
+\renewcommand{\epigraphflush}{center}
+%\renewcommand{\sourceflush}{flushleft}
+
