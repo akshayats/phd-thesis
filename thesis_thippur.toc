@@ -1,8 +1,8 @@
-\babel@toc {english}{}
-\babel@toc {english}{}
-\babel@toc {english}{}
-\babel@toc {swedish}{}
-\babel@toc {english}{}
+\select@language {english}
+\select@language {english}
+\select@language {english}
+\select@language {swedish}
+\select@language {english}
 \contentsline {chapter}{Contents}{v}{section*.1}
 \gdef \the@ipfilectr {@-1}
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}
