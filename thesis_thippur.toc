@@ -5,14 +5,27 @@
 \select@language {english}
 \contentsline {chapter}{Contents}{v}{section*.1}
 \gdef \the@ipfilectr {@-1}
-\contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1}On the structures in our universe}{1}{section.0.1}
+\contentsline {section}{\numberline {2}Where is structure?}{1}{section.0.2}
+\contentsline {section}{\numberline {3}Why care for structure?}{1}{section.0.3}
+\contentsline {section}{\numberline {4}Machine Learning: Attention to structures}{1}{section.0.4}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-2}
-\contentsline {chapter}{\chapternumberline {2}CHAPTER 1}{3}{chapter.2}
+\contentsline {chapter}{\chapternumberline {1}Finding Structure}{3}{chapter.1}
+\contentsline {section}{\numberline {1}Long-term observations of human indoor environments}{3}{section.1.1}
+\contentsline {section}{\numberline {2}RELATED WORK}{3}{section.1.2}
+\contentsline {section}{\numberline {3}Interesting surfaces - Why desks?}{3}{section.1.3}
+\contentsline {section}{\numberline {4}KTH Long Term Dataset}{3}{section.1.4}
+\contentsline {section}{\numberline {5}Matterport Dataset}{3}{section.1.5}
+\contentsline {section}{\numberline {6}KTH 3D Total Dataset}{3}{section.1.6}
+\contentsline {subsection}{\numberline {6.1}Need and construction}{3}{subsection.1.6.1}
+\contentsline {subsection}{\numberline {6.2}Noticing Spatial structures}{3}{subsection.1.6.2}
+\contentsline {subsection}{\numberline {6.3}INSERT PAPER}{3}{subsection.1.6.3}
+\contentsline {section}{\numberline {7}Spatial Relations: Language of Spatial Structures}{3}{section.1.7}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-3}
-\contentsline {chapter}{\chapternumberline {3}Chapter2}{5}{chapter.3}
+\contentsline {chapter}{\chapternumberline {2}Qualitative Spatial Relations}{5}{chapter.2}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-4}
-\contentsline {chapter}{\chapternumberline {4}Discussion}{7}{chapter.4}
+\contentsline {chapter}{\chapternumberline {3}Discussion}{7}{chapter.3}
 \gdef \the@ipfilectr {}
