@@ -20,12 +20,54 @@
 \contentsline {section}{\numberline {6}KTH 3D Total Dataset}{3}{section.1.6}
 \contentsline {subsection}{\numberline {6.1}Need and construction}{3}{subsection.1.6.1}
 \contentsline {subsection}{\numberline {6.2}Noticing Spatial structures}{3}{subsection.1.6.2}
-\contentsline {subsection}{\numberline {6.3}INSERT PAPER}{3}{subsection.1.6.3}
+\contentsline {subsection}{\numberline {6.3}INSERT PAPER KTH 3D TOTAL}{3}{subsection.1.6.3}
 \contentsline {section}{\numberline {7}Spatial Relations: Language of Spatial Structures}{3}{section.1.7}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-3}
-\contentsline {chapter}{\chapternumberline {2}Qualitative Spatial Relations}{5}{chapter.2}
+\contentsline {chapter}{\chapternumberline {2}Describing Spatial Structure \\ {\relax \fontsize {12}{14.5}\selectfont Qualitative and Quantitative Spatial Relations}}{5}{chapter.2}
+\contentsline {section}{\numberline {1}Spatial Relations - Intro}{5}{section.2.1}
+\contentsline {section}{\numberline {2}RELATED WORKS}{5}{section.2.2}
+\contentsline {section}{\numberline {3}Spatial Relations for our problem}{5}{section.2.3}
+\contentsline {section}{\numberline {4}Task description - object recognition}{5}{section.2.4}
+\contentsline {section}{\numberline {5}INSERT PAPER - AAAI QSR}{5}{section.2.5}
+\contentsline {section}{\numberline {6}Spatial Relations recommendations}{5}{section.2.6}
+\contentsline {section}{\numberline {7}SR for STRANDS?}{5}{section.2.7}
+\contentsline {section}{\numberline {8}INSERT PAPER - IROS QSR}{6}{section.2.8}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-4}
-\contentsline {chapter}{\chapternumberline {3}Discussion}{7}{chapter.3}
+\contentsline {chapter}{\chapternumberline {3}Designing Spatial Relations}{7}{chapter.3}
+\contentsline {section}{\numberline {1}What kind of spatial relations to design?}{7}{section.3.1}
+\contentsline {section}{\numberline {2}Why IFRC?}{7}{section.3.2}
+\contentsline {section}{\numberline {3}INSERT PAPER- IFRC}{7}{section.3.3}
+\contentsline {section}{\numberline {4}Discussion}{7}{section.3.4}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-5}
+\contentsline {chapter}{\chapternumberline {4}Object Estimation \\ {\relax \fontsize {12}{14.5}\selectfont Bayesian Optimisation based Multiple Instance Estimation}}{9}{chapter.4}
+\contentsline {section}{\numberline {1}Difficulties of Object Estimation}{9}{section.4.1}
+\contentsline {section}{\numberline {2}RELATED WORKS - Object Estimation}{9}{section.4.2}
+\contentsline {section}{\numberline {3}INSERT PAPER -- Bayesian Optimisation for Object Estimation}{9}{section.4.3}
+\contentsline {section}{\numberline {4}Discussion}{9}{section.4.4}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-6}
+\contentsline {chapter}{\chapternumberline {5}Making the Environment Continuous \\ {\relax \fontsize {12}{14.5}\selectfont Finite Mixture Models for Stochastic Kronecker Graphs}}{11}{chapter.5}
+\contentsline {section}{\numberline {1}Environment Recognition}{11}{section.5.1}
+\contentsline {section}{\numberline {2}Kronecker graph theory}{11}{section.5.2}
+\contentsline {section}{\numberline {3}Related works for large network analysis}{11}{section.5.3}
+\contentsline {section}{\numberline {4}INSERT PAPER - FMM for SKG}{11}{section.5.4}
+\contentsline {section}{\numberline {5}Discussion on generative model}{11}{section.5.5}
+\contentsline {section}{\numberline {6}TODO}{11}{section.5.6}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-7}
+\contentsline {chapter}{\chapternumberline {6}Describing Spatial Structure \\ {\relax \fontsize {12}{14.5}\selectfont Qualitative and Quantitative Spatial Relations}}{13}{chapter.6}
+\contentsline {section}{\numberline {1}Spatial Relations - Intro}{13}{section.6.1}
+\contentsline {section}{\numberline {2}RELATED WORKS}{13}{section.6.2}
+\contentsline {section}{\numberline {3}Spatial Relations for our problem}{13}{section.6.3}
+\contentsline {section}{\numberline {4}Task description - object recognition}{13}{section.6.4}
+\contentsline {section}{\numberline {5}INSERT PAPER - AAAI QSR}{13}{section.6.5}
+\contentsline {section}{\numberline {6}Spatial Relations recommendations}{13}{section.6.6}
+\contentsline {section}{\numberline {7}SR for STRANDS?}{13}{section.6.7}
+\contentsline {section}{\numberline {8}INSERT PAPER - IROS QSR}{14}{section.6.8}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-8}
+\contentsline {chapter}{\chapternumberline {7}Discussion}{15}{chapter.7}
 \gdef \the@ipfilectr {}
