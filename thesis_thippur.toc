@@ -1,8 +1,8 @@
-\select@language {english}
-\select@language {english}
-\select@language {english}
-\select@language {swedish}
-\select@language {english}
+\babel@toc {english}{}
+\babel@toc {english}{}
+\babel@toc {english}{}
+\babel@toc {swedish}{}
+\babel@toc {english}{}
 \contentsline {chapter}{Contents}{v}{section*.1}
 \gdef \the@ipfilectr {@-1}
 \contentsline {section}{\numberline {1}On the structures in our universe}{1}{section.0.1}
@@ -69,4 +69,5 @@
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-8}
 \contentsline {chapter}{\chapternumberline {7}Final Discussion}{15}{chapter.7}
+\contentsline {section}{\numberline {1}Contextual learning - general discussion}{15}{section.7.1}
 \gdef \the@ipfilectr {}
