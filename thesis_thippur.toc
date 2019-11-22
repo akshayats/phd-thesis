@@ -1,14 +1,14 @@
-\select@language {english}
-\select@language {english}
-\select@language {english}
-\select@language {swedish}
-\select@language {english}
+\babel@toc {english}{}
+\babel@toc {english}{}
+\babel@toc {english}{}
+\babel@toc {swedish}{}
+\babel@toc {english}{}
 \contentsline {chapter}{Contents}{v}{section*.1}
 \gdef \the@ipfilectr {@-1}
 \contentsline {section}{\numberline {1}On the structures in our universe}{1}{section.0.1}
 \contentsline {section}{\numberline {2}Where is structure?}{1}{section.0.2}
 \contentsline {section}{\numberline {3}Why care for structure?}{1}{section.0.3}
-\contentsline {section}{\numberline {4}Machine Learning: Attention to structures}{1}{section.0.4}
+\contentsline {section}{\numberline {4}Machine Learning: Attention to structures - An interpretation}{1}{section.0.4}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-2}
 \contentsline {chapter}{\chapternumberline {1}Finding Structure \\ {\relax \fontsize {12}{14.5}\selectfont Towards Spatial Relationships: KTH-3D-Total Dataset}}{3}{chapter.1}
