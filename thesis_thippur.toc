@@ -69,4 +69,5 @@
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-8}
 \contentsline {chapter}{\chapternumberline {7}Final Discussion}{15}{chapter.7}
+\contentsline {section}{\numberline {1}Contextual learning - general discussion}{15}{section.7.1}
 \gdef \the@ipfilectr {}
