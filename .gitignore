@@ -3,3 +3,6 @@
 *.synctex.gz
 *.aux
 *.log
+*.lof
+*.blg
+*.bbl
