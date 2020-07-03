@@ -1,0 +1,180 @@
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{lmodern}
+%\usepackage[latin1]{inputenc}
+\usepackage[utf8]{inputenc}
+\usepackage[swedish,english,romanian]{babel}
+\usepackage{combelow}
+\usepackage{xargs}                      % Use more than one optional 
+\usepackage[pdftex,dvipsnames]{xcolor}  % Coloured text etc.
+\usepackage{pdflscape}
+
+% Use this to make things fit in less space
+%\renewcommand{\baselinestretch}{0.988}
+
+
+\usepackage{xcolor,colortbl}
+\usepackage{graphicx}
+\usepackage{graphics} % for pdf, bitmapped graphics files
+\usepackage{epsfig} % for postscript graphics files
+\usepackage{amsmath} % assumes amsmath package installed
+\usepackage{amssymb}  % assumes amsmath package installed
+\usepackage{color}
+\usepackage{subfig}
+\usepackage[nocompress]{cite}
+\usepackage{algorithm}
+\usepackage{tikz}
+\usepackage{booktabs}
+\usepackage{pgffor}
+\usepackage{alphalph}
+\usepackage{cite}
+\usepackage{soul}
+\definecolor{Gray}{gray}{0.6}
+\definecolor{SoftGray}{gray}{0.75}
+\definecolor{SoftestGray}{gray}{0.9}
+\newcolumntype{a}{>{\columncolor{Gray}}r}
+\newcolumntype{b}{>{\columncolor{SoftGray}}r}
+\newcolumntype{d}{>{\columncolor{SoftestGray}}r}
+\renewcommand\thesubfigure{\alphalph{\value{subfigure}}}
+\usetikzlibrary{arrows}
+
+\usepackage{mathptmx} % assumes new font selection scheme installed
+\usepackage{times} % assumes new font selection scheme installed
+\usepackage{caption}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+
+%\usepackage[pdftex]{graphicx}
+%\usepackage[usenames,dvips,pdftex]{color}
+\usepackage{wrapfig}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{units}
+\usepackage{url}
+\usepackage[normalem]{ulem}
+\usepackage{pdfpages}
+\usepackage{epstopdf}
+\usepackage{array,multirow}
+\usepackage{hhline}
+\usepackage{stackengine}
+\usepackage[percent]{overpic}
+\usepackage{rotating}
+\usepackage{tabularx}
+\usetikzlibrary{calc,arrows}
+\usepackage{gensymb} %degree symblo
+\usepackage{setspace}
+\usepackage{parskip}
+
+% hyperlinks
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=false, %set true if you want colored links
+    linktoc=all,     %set to all if you want both sections and subsections linked
+    linkcolor=black,  %choose some color if you want links to stand out
+}
+
+
+% TODO shortcut commands 
+\usepackage[colorinlistoftodos,prependcaption,textsize=tiny]{todonotes}
+%\usepackage[disable]{todonotes}
+\newcommandx{\unsure}[2][1=]{\todo[linecolor=red,backgroundcolor=red!25,bordercolor=red,#1]{#2}}
+\newcommandx{\change}[2][1=]{\todo[linecolor=blue,backgroundcolor=blue!25,bordercolor=blue,#1]{#2}}
+\newcommandx{\info}[2][1=]{\todo[linecolor=OliveGreen,backgroundcolor=OliveGreen!25,bordercolor=OliveGreen,#1]{#2}}
+\newcommandx{\improvement}[2][1=]{\todo[linecolor=Plum,backgroundcolor=Plum!25,bordercolor=Plum,#1]{#2}}
+\newcommandx{\thiswillnotshow}[2][1=]{\todo[disable,#1]{#2}}
+
+
+
+
+
+% Metaroom includes
+
+\newsavebox\IBoxA \newsavebox\IBoxB \newlength\IHeight
+\newcommand\TwoFig[8]{% Image1 Caption1 Label1 Image2 ...
+  \sbox\IBoxA{\includegraphics[width=#7\textwidth]{#1}}
+  \sbox\IBoxB{\includegraphics[width=#8\textwidth]{#4}}%
+  \ifdim\ht\IBoxA>\ht\IBoxB
+    \setlength\IHeight{\ht\IBoxB}\else\setlength\IHeight{\ht\IBoxA}\fi%
+  \begin{figure}[!htb]
+  \minipage[t]{0.2\textwidth}\centering
+  \includegraphics[height=\IHeight]{#1}
+  \caption{#2}\label{#3}
+  \endminipage\hfill
+  \minipage[t]{0.2\textwidth}\centering
+  \includegraphics[height=\IHeight]{#4}
+  \caption{#5}\label{#6}
+  \endminipage 
+  \end{figure}%
+}
+
+\newcommand{\pluseq}{\mathrel{+}=}
+\newcommand{\minuseq}{\mathrel{-}=}
+
+\DeclareMathOperator{\Div}{div}
+\DeclareMathOperator{\grad}{grad}
+\newcommand{\matr}[1]{\boldsymbol{#1}}	%Matrices and Vectors
+\newcommand{\compl}[1]{\underline{#1}} 	%Complex Variables
+\newcommand{\E}{\mbox{I\negthinspace E}}	%Expectation
+\renewcommand{\Re}{\operatorname{Re}}	%reel value
+\renewcommand{\Im}{\operatorname{Im}}		%imaginary value
+\newcommand{\avg}[1]{\left< #1 \right>} % for average
+\newcommand{\myUnit}[1]{\ensuremath{\mathrm{#1}}}
+%\newcommand{\myUnit}[1]{\mathrm{#1}}
+\DeclareMathOperator{\e}{e} %exponential
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\newcommand{\mycite}[1]{\begin{small}\textcolor{gray}{#1}\end{small}}
+\newcommand\norm[1]{\left\lVert#1\right\rVert}
+
+
+\newcommand{\cblue}[1]{\textcolor{blue}{#1}}
+\newcommand{\cred}[1]{#1}
+\newcommand\tikzmark[2]{ \tikz[remember picture,overlay]  \node[inner sep=0pt,outer sep=2pt] (#1){#2};%
+}
+
+\newcommand\link[2]{%
+\begin{tikzpicture}[remember picture, overlay, >=stealth, shorten >= 1pt]
+  \draw[->] (#1.east) to  (#2.west);
+\end{tikzpicture}%
+}
+
+\maxsecnumdepth{subsection}
+\setsecnumdepth{subsection}
+% Uncomment this to add subsections to TOC
+%\maxtocdepth{subsection}
+%\settocdepth{subsection}
+
+% Sans serif fonts in chapter and section headings can look nice.
+\renewcommand{\partnamefont} {\usefont{T1}{lmss}{sbc}{n}\boldmath\huge}
+\renewcommand{\partnumfont} {\usefont{T1}{lmss}{sbc}{n}\boldmath\huge}
+\renewcommand{\parttitlefont}{\usefont{T1}{lmss}{sbc}{n}\boldmath\Huge}
+\renewcommand{\chapnamefont} {\usefont{T1}{lmss}{sbc}{n}\boldmath\huge}
+\renewcommand{\chapnumfont} {\usefont{T1}{lmss}{sbc}{n}\boldmath\huge}
+\renewcommand{\chaptitlefont}{\usefont{T1}{lmss}{sbc}{n}\boldmath\Huge}
+\setsecheadstyle {\usefont{T1}{lmss}{bx}{n}\boldmath\Large\raggedright}
+\setsubsecheadstyle{\usefont{T1}{lmss}{bx}{n}\boldmath\large\raggedright}
+\setparaheadstyle {\normalsize\bfseries\boldmath}
+\setsubparaheadstyle{\normalsize\bfseries\boldmath}
+
+% Instead of slanted type in the page headers, use upright, slightly smaller, type.
+\makeevenhead{headings}%
+{\normalfont\small\thepage}{}{\normalfont\small\leftmark}
+\makeoddhead{headings}%
+{\normalfont\small\rightmark}{}{\normalfont\small\thepage}
+
+%We also modify the style of figure and table captions slightly.
+%\setlength{\@tempdima}{\textwidth}
+%\addtolength{\@tempdima}{-2\leftmargini}
+%\captionwidth{\@tempdima}
+%\changecaptionwidth
+\captiondelim{. }
+\captionnamefont{\normalfont\footnotesize\bfseries}
+\captiontitlefont{\normalfont\footnotesize}
+
+%For some reason, standard LATEX has glue with non-zero stretchability in \parskip. Not nice. . .
+\setlength{\parskip}{0pt}
+
+% Thippur Custom Commands
+% -----------------------
+\newcommand*{\pretoctitle}[1]{{\clearpage\centering
+\vspace*{-0.5cm}\textbf{#1}\vspace{0.5cm}\par}}
