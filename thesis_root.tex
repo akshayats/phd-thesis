@@ -1,0 +1,65 @@
+\documentclass[shwtrims,noblurb]{template/kthesis}
+%\documentclass{template/kthesis}
+
+\input{includes}
+\input{first_page}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\begin{NoHyper}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Front matter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\frontmatter
+\maketitle
+\input{front/front}
+\clearpage
+\mainmatter
+
+\input{introduction}
+
+\cleardoublepage
+\thispagestyle{empty}
+\cleardoublepage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Chapters
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{Finding_Structures}
+%\include{chapter1/Finding_Structures}
+\iffalse % Not compiled
+FOOBAR
+\fi
+
+\cleardoublepage
+\input{Spatial_Relations}
+\cleardoublepage
+\input{Measureable_QSR}
+\cleardoublepage
+\input{Object_Estimation}
+\cleardoublepage
+\input{skg}
+\cleardoublepage
+\input{Demo_DeepLearning}
+\cleardoublepage
+\input{Discussion}
+\cleardoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Appendices
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{appendices}
+%
+%\input{appendices/rgbd_registration}
+%
+%\input{appendices/uav_modeling}
+%
+%\end{appendices}
+
+\bibliographystyle{kthplain}
+\bibliography{references}
+\end{NoHyper}
+\end{document}
+\endinput
+

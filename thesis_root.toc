@@ -1,0 +1,62 @@
+\babel@toc {romanian}{}
+\babel@toc {english}{}
+\babel@toc {swedish}{}
+\babel@toc {english}{}
+\contentsline {chapter}{Contents}{vi}{section*.1}
+\contentsline {chapter}{List of Figures}{viii}{section*.2}
+\contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}On the structures in our universe}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Where is structure?}{2}{section.1.2}
+\contentsline {section}{\numberline {1.3}Why care for structure?}{2}{section.1.3}
+\contentsline {section}{\numberline {1.4}Machine Learning: Attention to structures - An interpretation}{2}{section.1.4}
+\contentsline {chapter}{\chapternumberline {2}Finding Structure \\ {\relax \fontsize {12}{14.5}\selectfont Towards Spatial Relationships: KTH-3D-Total Dataset}}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Long-term observations of human indoor environments}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}RELATED WORK}{3}{section.2.2}
+\contentsline {section}{\numberline {2.3}Interesting surfaces - Why desks?}{3}{section.2.3}
+\contentsline {section}{\numberline {2.4}KTH Long Term Dataset}{3}{section.2.4}
+\contentsline {section}{\numberline {2.5}Matterport Dataset}{3}{section.2.5}
+\contentsline {section}{\numberline {2.6}KTH 3D Total Dataset}{3}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Need and construction}{3}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}Noticing Spatial structures}{3}{subsection.2.6.2}
+\contentsline {subsection}{\numberline {2.6.3}INSERT PAPER KTH 3D TOTAL}{3}{subsection.2.6.3}
+\contentsline {section}{\numberline {2.7}Spatial Relations: Language of Spatial Structures}{3}{section.2.7}
+\contentsline {section}{\numberline {2.8}TODO}{3}{section.2.8}
+\contentsline {chapter}{\chapternumberline {3}Describing Spatial Structure \\ {\relax \fontsize {12}{14.5}\selectfont Qualitative and Quantitative Spatial Relations}}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}Spatial Relations - Intro}{5}{section.3.1}
+\contentsline {section}{\numberline {3.2}RELATED WORKS}{5}{section.3.2}
+\contentsline {section}{\numberline {3.3}Spatial Relations for our problem}{5}{section.3.3}
+\contentsline {section}{\numberline {3.4}Task description - object recognition}{5}{section.3.4}
+\contentsline {section}{\numberline {3.5}INSERT PAPER - AAAI QSR}{5}{section.3.5}
+\contentsline {section}{\numberline {3.6}Spatial Relations recommendations}{5}{section.3.6}
+\contentsline {section}{\numberline {3.7}SR for STRANDS?}{5}{section.3.7}
+\contentsline {section}{\numberline {3.8}INSERT PAPER - IROS QSR}{6}{section.3.8}
+\contentsline {chapter}{\chapternumberline {4}Designing Spatial Relations\\ {\relax \fontsize {12}{14.5}\selectfont Joint Object Classification with Intrinsic Frame of Reference Calculi IFRC}}{7}{chapter.4}
+\contentsline {section}{\numberline {4.1}What kind of spatial relations to design?}{7}{section.4.1}
+\contentsline {section}{\numberline {4.2}Why IFRC?}{7}{section.4.2}
+\contentsline {section}{\numberline {4.3}INSERT PAPER- IFRC}{7}{section.4.3}
+\contentsline {section}{\numberline {4.4}Discussion}{7}{section.4.4}
+\contentsline {chapter}{\chapternumberline {5}Object Estimation \\ {\relax \fontsize {12}{14.5}\selectfont Bayesian Optimisation based Multiple Instance Estimation}}{9}{chapter.5}
+\contentsline {section}{\numberline {5.1}Difficulties of Object Estimation}{9}{section.5.1}
+\contentsline {section}{\numberline {5.2}RELATED WORKS - Object Estimation}{9}{section.5.2}
+\contentsline {section}{\numberline {5.3}INSERT PAPER -- Bayesian Optimisation for Object Estimation}{9}{section.5.3}
+\contentsline {section}{\numberline {5.4}Discussion}{9}{section.5.4}
+\contentsline {chapter}{\chapternumberline {6}Making the Environment Continuous \\ {\relax \fontsize {12}{14.5}\selectfont Finite Mixture Models for Stochastic Kronecker Graphs}}{11}{chapter.6}
+\contentsline {section}{\numberline {6.1}Environment Recognition}{11}{section.6.1}
+\contentsline {section}{\numberline {6.2}Kronecker graph theory}{11}{section.6.2}
+\contentsline {section}{\numberline {6.3}Related works for large network analysis}{11}{section.6.3}
+\contentsline {section}{\numberline {6.4}INSERT PAPER - FMM for SKG}{11}{section.6.4}
+\contentsline {section}{\numberline {6.5}Discussion on generative model}{11}{section.6.5}
+\contentsline {section}{\numberline {6.6}TODO}{11}{section.6.6}
+\contentsline {chapter}{\chapternumberline {7}Deep Learning and Demo \\ {\relax \fontsize {12}{14.5}\selectfont Possible chapter}}{13}{chapter.7}
+\contentsline {section}{\numberline {7.1}DNN problem formulations}{13}{section.7.1}
+\contentsline {section}{\numberline {7.2}Parallels to graph neural networks}{13}{section.7.2}
+\contentsline {section}{\numberline {7.3}SORHACK Demo}{13}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Problem statement}{13}{subsection.7.3.1}
+\contentsline {section}{\numberline {7.4}Further challenges}{14}{section.7.4}
+\contentsline {section}{\numberline {7.5}TODO}{14}{section.7.5}
+\contentsline {chapter}{\chapternumberline {8}Final Discussion}{15}{chapter.8}
+\contentsline {section}{\numberline {8.1}Contextual learning - general discussion}{15}{section.8.1}
+\contentsline {chapter}{Bibliography}{17}{section*.4}
+\babel@toc {swedish}{}
+\babel@toc {english}{}
+\babel@toc {romanian}{}
