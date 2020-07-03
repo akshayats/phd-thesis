@@ -597,7 +597,7 @@ FUNCTION {article}
       format.pages output
     }
   if$
-%  format.issn output
+  format.issn output
   format.url output
   new.block
   note output
